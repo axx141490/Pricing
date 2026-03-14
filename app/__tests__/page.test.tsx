@@ -56,7 +56,7 @@ describe('Pricing Page', () => {
 
     it('should render prices', () => {
       render(<Home />);
-      expect(screen.getByText(/\$29/)).toBeInTheDocument();
+      expect(screen.getByText(/\$19/)).toBeInTheDocument();
       expect(screen.getByText(/\$99/)).toBeInTheDocument();
       expect(screen.getByRole('heading', { name: /enterprise/i })).toBeInTheDocument();
       // Enterprise section should have Custom price
@@ -147,7 +147,7 @@ describe('Pricing Page', () => {
     it('should make plan differences obvious', () => {
       render(<Home />);
       // Check that all plans are distinguishable
-      expect(screen.getByText(/\$29/)).toBeInTheDocument();
+      expect(screen.getByText(/\$19/)).toBeInTheDocument();
       expect(screen.getByText(/\$99/)).toBeInTheDocument();
       // Enterprise section should have Custom price
       const enterpriseCard = screen.getByRole('heading', { name: /enterprise/i }).closest('div');

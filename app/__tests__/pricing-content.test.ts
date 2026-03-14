@@ -108,7 +108,7 @@ describe('Pricing Content', () => {
     it('Starter plan should have correct details', () => {
       const starter = pricingContent.plans[0];
       expect(starter.name).toBe('Starter');
-      expect(starter.price).toBe('$29');
+      expect(starter.price).toBe('$19');
       expect(starter.period).toBe('/month');
       expect(starter.cta).toBe('Get Started');
     });

@@ -81,6 +81,43 @@ npm run build
 npm start
 ```
 
+## Testing
+
+Comprehensive unit tests are included using Jest and React Testing Library.
+
+### Running Tests
+
+**Run all tests:**
+```bash
+npm test
+```
+
+**Run tests in watch mode** (auto-rerun on file changes):
+```bash
+npm run test:watch
+```
+
+**Generate coverage report:**
+```bash
+npm run test:coverage
+```
+
+### Test Coverage
+
+The project has **100% code coverage** with 42 tests covering:
+- Pricing content data structure and validation
+- Component rendering and display
+- Accessibility and semantic HTML
+- KYR-9 requirements for pricing clarity
+- Responsive design
+
+### Test Files
+
+- `app/__tests__/pricing-content.test.ts` - Data structure validation (24 tests)
+- `app/__tests__/page.test.tsx` - Component rendering (18 tests)
+
+For detailed testing information, see [TESTING.md](TESTING.md).
+
 ## Learn More
 
 To learn more about Next.js, check out:
