@@ -17,7 +17,7 @@ export const pricingContent = {
     {
       name: "Starter",
       tagline: "Perfect for getting started",
-      price: "$29",
+      price: "$19",
       period: "/month",
       cta: "Get Started",
       features: [
